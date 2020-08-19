@@ -394,5 +394,14 @@ body {
 	.f-section__social-media-wrapper { display: none; }
 
 	.f-section__button { display: none; }
+}
 
+@media (min-width:600px) and (max-width:1025px) {
+	.f-section {
+		width: 100vw;
+		height: 89.4vh;
+		background-image: url("../images/image1.png");
+		background-size: 100.2vw 98vh;
+		background-position: center;
+	}
 }
