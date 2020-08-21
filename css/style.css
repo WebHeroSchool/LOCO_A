@@ -46,6 +46,12 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	color: white;
+	transition: opacity .5s ease-out;
+}
+
+.header__language:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 
 .header__language::after {
@@ -84,6 +90,12 @@ body {
 	height: 6.2vw;
 	width: 6.2vw;
 	right: 0;
+	transition: opacity .5s ease-out;
+}
+
+.header__burger-button:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 
 .header__burger-button::before {
