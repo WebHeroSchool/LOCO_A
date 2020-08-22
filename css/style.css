@@ -432,3 +432,35 @@ body {
 		height: 62.4vh;
 	}
 }
+
+@media (min-width: 760px) and (max-width: 1025px) {
+	.f-section {
+		background: white;
+	}
+
+	.f-section__img {
+		display: block;
+		height: 80vw;
+		width: 80vw;
+		top: 17vh;
+		left: 5vw;
+		padding: 5vw;
+		border: 4px double pink;
+	}
+
+	.f-section__main-inf {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		width: 79.2vw;
+		height: 12.7vh;
+		left: 10.4vw;
+		top: 87vh;
+	}
+
+	.f-section__main-inf::after {
+		content: "";
+		position: absolute;
+		margin: 5vh 37vw;
+	}
+}
