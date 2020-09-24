@@ -43,12 +43,12 @@ a { color: black; }
 .header__language {
 	margin-top: 10px;
   margin-left: 0;
-	padding-right: 25px;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	color: white;
-	transition: opacity .5s ease-out;
+  padding-right: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  transition: opacity .5s ease-out;
 }
 
 .header__language:hover {
