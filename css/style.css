@@ -24,7 +24,7 @@ a { color: black; }
 }
 
 .header__title {
-	margin-top: 8px;
+  margin-top: 8px;
 	margin-right: 10px;
 	padding-left: 52px;
 	font-size: 30px;
@@ -42,7 +42,7 @@ a { color: black; }
 
 .header__language {
 	margin-top: 10px;
-	margin-left: 0;
+  margin-left: 0;
 	padding-right: 25px;
 	font-weight: 500;
 	font-size: 20px;
