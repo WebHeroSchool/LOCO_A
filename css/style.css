@@ -291,8 +291,6 @@ a { color: black; }
 	bottom: 51px;
 }
 
-/***********************************************************************************/
-
 .s-section {
 	background: #fae8e4;
 	height: 98.5vh;
@@ -509,8 +507,6 @@ a { color: black; }
 	transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
-/******************************************************************/
 
 .th-section {
 	position: relative;
@@ -976,7 +972,7 @@ a { color: black; }
 		width: 93%;
 		height: auto;
 		margin: auto;
-		margin-top: 10%;
+		margin-top: 8%;
 	}
 
 	.th-section__description-wrapper {
@@ -990,7 +986,7 @@ a { color: black; }
 
 	.th-section__description {
 		position: absolute;
-		top: -19px;
+		top: -25px;
     left: 4%;
     width: 95%;
     height: 32vh;
@@ -1118,7 +1114,7 @@ a { color: black; }
 	.th-section__other-offers-wrapper {
 	width: 55%;
 	margin-left: 50%;
-	margin-top: 60%;
+	margin-top: 55%;
 	}
 }
 
@@ -1167,30 +1163,6 @@ a { color: black; }
 	.s-section__add-button {	font-size: 13px; }
 }
 
-@media (min-height: 900px) and (max-width: 1025px) {
-	.th-section__title { padding-top: 15%;	}
-
-	.th-section__subtitle {	padding: 10% 0 30% 0;	}
-
-	.th-section__buttons-wrapper {	margin-top: 15%;	}
-
-	.th-section__buttons-wrapper {
-		width: 85%;
-    height: 15%;
-    padding-left: 8%;
-		height: 15%;
-		border: 1.5px solid #000;
-	}
-
-	.th-section__add-button {
-		width: 100%;
-		font-weight: 500;
-		font-size: 1em;
-		line-height: 0px;
-		border: none;
-	}
-}
-
 @media (max-width: 377px) and (max-height: 597px) {
 	.th-section__arrow {
 		width: 74%;
@@ -1203,7 +1175,7 @@ a { color: black; }
 	}
 }
 
-@media (max-width: 1025px) and (min-height: 650px) {
+@media (max-width: 1025px) and (min-height: 650px) and (min-width: 500px) {
 	.f-section__main-inf_version_moobile { align-items: flex-end; }
 
 	.f-section__title_version_mobile { margin-bottom: 15%; }
@@ -1292,6 +1264,24 @@ a { color: black; }
     font-size: 3em;
     margin-right: 0;
 	}
+}
 
+@media (max-width: 400px) {
+	.f-section {
+		height: 531px;
+		display: flex;
+		align-items: flex-end;
+	}
 
+	.f-section__main-inf_version_moobile { margin-bottom: 16.5%; }
+
+	.f-section__title_version_mobile { margin-bottom: 0; }
+
+	.s-section { height: 600px; }
+
+	.th-section { height: 600px; }
+
+	.s-section__img-mobile { margin: 45px 0 20px 0; }
+
+	.th-section__description { height: 195px; }
 }
