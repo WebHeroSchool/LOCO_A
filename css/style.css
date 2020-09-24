@@ -119,19 +119,19 @@ a { color: black; }
 }
 
 .f-section {
-	height: 88vh;
-	background: linear-gradient(to left, #fff 50%, #000 50%);
-	background-size: 64.6vw;
-	background-repeat: no-repeat;
+  height: 88vh;
+  background: linear-gradient(to left, #fff 50%, #000 50%);
+  background-size: 64.6vw;
+  background-repeat: no-repeat;
 }
 
 .f-section__main-inf {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .f-section__img {
-	margin: 8.5vh 3.6vw 18.6vh 13vw;
+  margin: 8.5vh 3.6vw 18.6vh 13vw;
   width: 38vw;
   height: 39vw;
 }
